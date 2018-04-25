@@ -16,6 +16,7 @@
 		4E25E8B320853E56003C7EF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25E8B220853E56003C7EF6 /* main.m */; };
 		4E25E8BD20853E56003C7EF6 /* Camera_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25E8BC20853E56003C7EF6 /* Camera_AppTests.m */; };
 		4E25E8C820853E56003C7EF6 /* Camera_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25E8C720853E56003C7EF6 /* Camera_AppUITests.m */; };
+		4E6F7BCA2088DC4300B38F9C /* UIButton+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6F7BC92088DC4300B38F9C /* UIButton+Border.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4E25E8C320853E56003C7EF6 /* Camera AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Camera AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E25E8C720853E56003C7EF6 /* Camera_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Camera_AppUITests.m; sourceTree = "<group>"; };
 		4E25E8C920853E56003C7EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6F7BC82088DC4300B38F9C /* UIButton+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Border.h"; path = "../../Browser/Browser/UIButton+Border.h"; sourceTree = "<group>"; };
+		4E6F7BC92088DC4300B38F9C /* UIButton+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Border.m"; path = "../../Browser/Browser/UIButton+Border.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 		4E25E89F20853E55003C7EF6 /* Camera App */ = {
 			isa = PBXGroup;
 			children = (
+				4E6F7BC82088DC4300B38F9C /* UIButton+Border.h */,
+				4E6F7BC92088DC4300B38F9C /* UIButton+Border.m */,
 				4E25E8A020853E55003C7EF6 /* AppDelegate.h */,
 				4E25E8A120853E55003C7EF6 /* AppDelegate.m */,
 				4E25E8A320853E55003C7EF6 /* ViewController.h */,
@@ -268,6 +273,7 @@
 				4E25E8A520853E55003C7EF6 /* ViewController.m in Sources */,
 				4E25E8A220853E55003C7EF6 /* AppDelegate.m in Sources */,
 				4E25E8B320853E56003C7EF6 /* main.m in Sources */,
+				4E6F7BCA2088DC4300B38F9C /* UIButton+Border.m in Sources */,
 				4E25E8AB20853E55003C7EF6 /* Camera_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,13 +444,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6PJY8ADY4;
+				DEVELOPMENT_TEAM = NPB9J4KRXA;
 				INFOPLIST_FILE = "Camera App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.citrix.cameraapp.Camera-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.citrix.cameraAppTest.Camera-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,13 +462,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6PJY8ADY4;
+				DEVELOPMENT_TEAM = NPB9J4KRXA;
 				INFOPLIST_FILE = "Camera App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.citrix.cameraapp.Camera-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.citrix.cameraAppTest.Camera-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
